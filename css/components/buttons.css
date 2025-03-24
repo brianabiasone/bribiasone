@@ -1,0 +1,116 @@
+.button {
+    display: inline-flex;
+    padding: 11px 40px;
+    margin: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #494949;
+    color: #FFF;
+    border: 3px solid #494949;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #FFF;
+    color: #494949;
+}
+
+.button-social {
+    background: none;
+    color: #424242;
+    border: 3px solid #494949;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.button-social:hover {
+    background: #494949;
+    color: #FFF;
+}
+
+.button-tag {
+    background: none;
+    border: 3px solid #494949;
+    color: #494949;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20.042px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 11px 25px;
+    margin: 10px 10px;
+}
+
+.button-tag:hover {
+    background: #494949;
+    color: #FFF;
+}
+
+.button-arrow {
+    background: none;
+    color: #424242;
+    border: 3px solid #494949;
+    display: flex;
+    border-radius: 50px;
+}
+
+.button-arrow p {
+    display: flex;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+}
+
+.button-arrow svg {
+    display: flex;
+    justify-content: right;
+}
+
+.button-arrow:hover {
+    background: #494949;
+    color: #ffffff;
+}
+
+/* For CTA homepage button */
+
+.button-cta {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 52px;
+    background: linear-gradient(90deg, #351630 0%, #11264D 100%);
+    box-shadow: 0px 3.5px 3.5px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    width: 80%;
+    margin: 0;
+}
+
+.button-cta p {
+    display: flex;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+}
+
+.button-cta svg {
+    display: flex;
+    justify-content: right;
+}
+
+.button-cta:hover {
+    background: #383838;
+    color: #ffffff;
+}

@@ -1,0 +1,63 @@
+
+/* Basic Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 54px 144px;
+}
+
+.navbar-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .logo {
+    font-size: 32px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(90deg, #302F2F 0%, #6C5A64 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 21px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #494949;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+
+    .navbar .logo {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+}
