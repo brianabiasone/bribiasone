@@ -39,8 +39,9 @@
 
 .button-tag {
     background: none;
-    border: 3px solid #494949;
-    color: #494949;
+    border: 3px solid #1B1B1B;
+    border-radius: 22.743px;
+    color: #1B1B1B;
     text-align: center;
     font-family: Inter;
     font-size: 20.042px;
@@ -48,7 +49,7 @@
     font-weight: 400;
     line-height: normal;
     padding: 11px 25px;
-    margin: 10px 10px;
+    margin: 10px 0;
 }
 
 .button-tag:hover {
@@ -58,8 +59,8 @@
 
 .button-arrow {
     background: none;
-    color: #424242;
-    border: 3px solid #494949;
+    color: #1B1B1B;
+    border: 3px solid #1B1B1B;
     display: flex;
     border-radius: 50px;
 }

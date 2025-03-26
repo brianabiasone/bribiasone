@@ -27,16 +27,15 @@
 .navbar ul {
     display: flex;
     list-style-type: none;
-    padding: 0;
-}
-
-.navbar ul li {
-    margin: 0 21px;
+    gap: 36px;
 }
 
 .navbar ul li a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 23px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
     color: #494949;
 }
 
