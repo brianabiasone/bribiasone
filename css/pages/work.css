@@ -1,0 +1,37 @@
+.case-study-title {
+    color: #1B1B1B;
+    text-align: center;
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+
+.case-study-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 62px;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 75px;
+    margin-bottom: 130px;
+}
+
+.case-study-left {
+    flex: 1;
+    gap: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.case-study-right {
+    flex: 1;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    padding-top: 112px;
+}

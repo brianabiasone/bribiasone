@@ -1,0 +1,67 @@
+.case-study {
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 50px;
+    background: #AFC7FB;
+    height: 863px;
+    padding: 30px 45px;
+}
+
+.case-study h2 {
+    color: #1B1B1B;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.case-study h3 {
+    color: #1B1B1B;
+    text-align: left;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.case-study h4 {
+    color: #424242;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.case-study p {
+    color: #1B1B1B;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.case-study img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.case-study.blue {
+    background: #AFC7FB;
+}
+.case-study.purple {
+    background: #D6C6FC;
+}
+.case-study.orange {
+    background: #FCEAE4;
+}
+.case-study.pink {
+    background: #FFEAF6;
+}
