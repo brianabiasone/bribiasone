@@ -1,6 +1,6 @@
 .contact {
     width: 90%;
-    max-width: 1200px;
+    max-width: 1196px;
     text-align: center;
     background: linear-gradient(to right, #F1A7C6, #D0A7FF, #9A9BFF);
     border-radius: 50px;
@@ -8,7 +8,7 @@
 }
 
 .contact h1 {
-    color: #494949;
+    color: #1B1B1B;
     text-align: center;
     font-family: Inter;
     font-size: 45px;
@@ -20,17 +20,17 @@
 }
 
 .contact h2 {
-    color: #494949;
+    color: #1B1B1B;
     text-align: center;
     font-family: Inter;
     font-size: 45px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 30px;
 }
 
 .contact h3 {
-    color: #424242;
+    color: #1B1B1B;
     font-family: Inter;
     font-size: 17px;
     font-style: normal;
@@ -60,7 +60,7 @@
     border: none;
     border-radius: 20px;
     background: #FFF;
-    color: #616161;
+    color: #424242;
     font-family: Inter;
     font-size: 14px;
     font-weight: 600;

@@ -13,3 +13,12 @@ body {
     min-height: 100%;
     letter-spacing: 0.05em;
 }
+
+.section-title{
+    color: #1B1B1B;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

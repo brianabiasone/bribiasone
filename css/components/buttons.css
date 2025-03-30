@@ -6,9 +6,9 @@
     align-items: center;
     gap: 10px;
     border-radius: 50px;
-    background: #494949;
+    background: #1B1B1B;
     color: #FFF;
-    border: 3px solid #494949;
+    border: 3px solid #1B1B1B;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
@@ -18,14 +18,14 @@
 }
 
 .button:hover {
-    background: #FFF;
-    color: #494949;
+    background: rgba(73, 73, 73, 0.00);
+    color: #1B1B1B;
 }
 
 .button-social {
-    background: none;
-    color: #424242;
-    border: 3px solid #494949;
+    background: rgba(73, 73, 73, 0.00);
+    color: #1B1B1B;
+    border: 3px solid #1B1B1B;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -33,7 +33,7 @@
 }
 
 .button-social:hover {
-    background: #494949;
+    background: #1B1B1B;
     color: #FFF;
 }
 
@@ -81,7 +81,14 @@
 
 .button-arrow:hover {
     background: #494949;
-    color: #ffffff;
+    border: 3px solid #494949;
+    color: #FFF;
+}
+
+.button-arrow:active {
+    background: #1B1B1B;
+    border: 3px solid #1B1B1B;
+    color: #FFF;
 }
 
 /* For CTA homepage button */

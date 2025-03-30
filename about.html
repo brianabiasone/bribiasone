@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="navbar">
@@ -13,24 +14,23 @@
         <ul>
             <li><a href="about.html">About</a></li>
             <li><a href="work.html">Work</a></li>
-            <li><a href="resume.html">Resume</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </div>
     <div class="content">
         <div class="about">
             <div class="left-side">
-                <div class="about-img">
-                    <img src="img/bri.jpeg">
+                <div class="about-img" data-aos="fade-right">
+                    <img src="img/bri2.png">
                 </div>
-                <div class="about-content">
+                <div class="about-content" data-aos="fade-right">
                     <h3>Designer by day, climber by night.</h3>
                     <p>I've always enjoyed being creative and artistic my whole life. Being a UX designer allows me to use that creativity to help people, which I find so fulfilling. Similarly to UX design, rock climbing requires creativity to solve the 'problem' (the route).
                     </p>
                 </div>
             </div>
             <div class="right-side">
-                <div class="about-content">
+                <div class="about-content" data-aos="fade-left">
                     <h2>Hey, I'm Bri!</h2>
                     <h3>I love solving problems using creativity and design.</h3>
                     <p>I want to leave the world better than I found it, one design at a time. As designers, we have a responsibility to create ethically, for humans, and for the earth.
@@ -39,34 +39,44 @@
                     I'm very passionate about accessibility advocacy, and ensuring that a user experience is inclusive, for all people. My goal is to make a positive impact in peoples everyday lives through thoughtfully crafted design.
                     </p>
                 </div>
-                <div class="about-img">
+                <div class="about-img" data-aos="fade-left">
                     <img src="img/climbing.jpeg">
                 </div>
             </div>
         </div>
-        <div class="about-img-full">
-            <img src="img/kayak.jpeg">
+        <div class="about-img-full" data-aos="fade-up">
+            <img src="img/bri-kayak.png">
         </div>
-        <div class="about-experience">
-            <h2>Experience</h2>
-            <div class="experience">
-                <h3>3<span>years</span></h3>
-                <h2>E-commerce Data Specialist</h2>
-                <h3>General Mills</h3>
-                <p>2021 - 2024</p>
+        <div class="about-experience" data-aos="fade-up">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience orange">
+                <div class="experience-left">
+                    <h2>E-commerce Data Specialist</h2>
+                </div>
+                <div class="experience-right">
+                    <h3>General Mills</h3>
+                    <p>2021 - 2024</p>
+                </div>
+            </div>
+            <div class="experience purple">
+                <div class="experience-left">
+                    <h2>Product Designer</h2>
+                </div>
+                <div class="experience-right">
+                    <h3>Freelance</h3>
+                    <p>2024 - Current</p>
+                </div>
+            </div>
+            <div class="experience blue">
+                <div class="experience-left">
+                    <h2>UX Researcher and Designer</h2>
+                </div>
+                <div class="experience-right">
+                    <h3>Government of Canada</h3>
+                    <p>2025 - Current</p>
+                </div>
             </div>
         </div>
-        <a class="button button-arrow" href="resume.html">
-            <p>Full Resume</p>
-            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">
-                <mask id="mask0_254_60" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="29" height="29">
-                <rect width="29" height="29" fill="#D9D9D9"/>
-                </mask>
-                <g mask="url(#mask0_254_60)">
-                <path d="M7.73464 21.75L6.04297 20.0583L17.643 8.45832H7.2513V6.04166H21.7513V20.5417H19.3346V10.15L7.73464 21.75Z" fill="#494949"/>
-                </g>
-            </svg>
-        </a>
         <div class="home-contact" data-aos="fade-up">
             <h2>Great designs start with great conversations.</h2>
             <p>I create thoughtful, inclusive and accessible experiences that make a positive impact—let’s design something meaningful together.</p>
@@ -82,10 +92,29 @@
             </a>
         </div>
     </div>
+    <footer>
+        <div class="navbar navbar-center">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer">
+            <p>&copy; 2025 Bri Biasone. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- AOS JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,          // Start animations when 200px from viewport
+            delay: 100,           // Delay between animations
+            duration: 600,        // Animation duration
+            easing: 'ease-out',   // Easing function
+            once: false            // Only animate once
+        });
+    </script>
 </body>
-<footer>
-    <div class="footer">
-        <p>&copy; 2025 Bri Biasone. All rights reserved.</p>
-    </div>
-</footer>
 </html>
