@@ -70,7 +70,7 @@
 
 .home-about {
     width: 90%;
-    height: 558px;
+    height: 500px;
     max-width: 1192px;
     margin: 80px 0 40px 0;
     display: flex;
@@ -131,7 +131,7 @@
 
 .home-contact{
     width: 90%;
-    max-width: 1100px;
+    max-width: 1196px;
     border-radius: 50px;
     background: linear-gradient(to right, #F1A7C6, #D0A7FF, #9A9BFF);
     margin: 40px 0;
@@ -139,11 +139,11 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 72px 200px;
+    padding: 72px 100px;
 }
 
 .home-contact h2 {
-    color: #494949;
+    color: #1B1B1B;
     text-align: center;
     font-family: Inter;
     font-size: 64px;
@@ -153,10 +153,10 @@
 }
 
 .home-contact p {
-    color: #494949;
+    color: #1B1B1B;
     text-align: center;
     font-family: Inter;
-    font-size: 25px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -164,6 +164,6 @@
 }
 
 .home-contact .button-arrow {
-    margin: 0 auto;
+    margin: 25px auto;
     font-size: 25px;
 }
