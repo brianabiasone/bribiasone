@@ -6,7 +6,7 @@
     border-radius: 50px;
     background: #AFC7FB;
     height: 863px;
-    padding: 30px 45px;
+    overflow: hidden;
 }
 
 .case-study h2 {
@@ -37,20 +37,45 @@
     line-height: normal;
 }
 
-.case-study p {
+.case-study-header {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px 45px;
+}
+
+.case-study-content {
+    display: flex;
+    align-items: top;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 15px;
+    padding-left: 45px;
+    height: 100%;
+}
+
+.case-study-content p {
     color: #1B1B1B;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    width: 35%;
+    padding-top: 20px;
 }
 
-.case-study img {
-    width: 100%;
+.case-study-content div {
+    width: 65%;
     height: 100%;
-    object-fit: cover;
     overflow: hidden;
+}
+
+.case-study-content img {
+    width: auto;
+    height: 90%;
+    object-fit: cover;
 }
 
 .case-study.blue {
