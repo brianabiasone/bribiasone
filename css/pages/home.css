@@ -133,13 +133,25 @@
     width: 90%;
     max-width: 1196px;
     border-radius: 50px;
-    background: linear-gradient(to right, #F1A7C6, #D0A7FF, #9A9BFF);
     margin: 40px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     padding: 72px 100px;
+}
+
+.home-contact::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/img/gradient.png') lightgray 50% / cover no-repeat;
+    opacity: 0.5;
+    z-index: -1; /* Ensures the image stays behind the content */
+    border-radius: 50px;
 }
 
 .home-contact h2 {
