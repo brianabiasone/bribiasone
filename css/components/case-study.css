@@ -9,6 +9,16 @@
     overflow: hidden;
 }
 
+.case-study::after {
+    content: "";
+    position: absolute;
+    top: 65%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(359deg, rgba(5, 5, 5, 0.45) 1.04%, rgba(5, 5, 5, 0.15) 49.84%, rgba(121, 135, 146, 0.00) 98.63%);
+}
+
 .case-study h2 {
     color: #1B1B1B;
     font-family: Inter;
