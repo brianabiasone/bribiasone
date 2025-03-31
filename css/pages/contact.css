@@ -1,14 +1,27 @@
 .contact {
-    width: 90%;
-    max-width: 1200px;
+    position: relative;
+    width: 100%;
+    max-width: 1196px;
     text-align: center;
-    background: linear-gradient(to right, #F1A7C6, #D0A7FF, #9A9BFF);
     border-radius: 50px;
     margin-top: 52px;
 }
 
+.contact::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/img/gradient.png') lightgray 50% / cover no-repeat;
+    opacity: 0.5;
+    z-index: -1; /* Ensures the image stays behind the content */
+    border-radius: 50px;
+}
+
 .contact h1 {
-    color: #494949;
+    color: #1B1B1B;
     text-align: center;
     font-family: Inter;
     font-size: 45px;
@@ -20,17 +33,18 @@
 }
 
 .contact h2 {
-    color: #494949;
+    color: #1B1B1B;
     text-align: center;
     font-family: Inter;
     font-size: 45px;
     font-style: normal;
-    font-weight: 600;
-    margin-bottom: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 50px;
 }
 
 .contact h3 {
-    color: #424242;
+    color: #1B1B1B;
     font-family: Inter;
     font-size: 17px;
     font-style: normal;
@@ -56,11 +70,11 @@
 .contact .contact-form textarea {
     width: 65%;
     padding: 16px;
-    margin: 15px 0;
+    margin: 10px 0;
     border: none;
     border-radius: 20px;
     background: #FFF;
-    color: #616161;
+    color: #424242;
     font-family: Inter;
     font-size: 14px;
     font-weight: 600;

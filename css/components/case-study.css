@@ -1,0 +1,102 @@
+.case-study {
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 50px;
+    background: #AFC7FB;
+    height: 863px;
+    overflow: hidden;
+}
+
+.case-study::after {
+    content: "";
+    position: absolute;
+    top: 65%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(359deg, rgba(5, 5, 5, 0.45) 1.04%, rgba(5, 5, 5, 0.15) 49.84%, rgba(121, 135, 146, 0.00) 98.63%);
+}
+
+.case-study h2 {
+    color: #1B1B1B;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.case-study h3 {
+    color: #1B1B1B;
+    text-align: left;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.case-study h4 {
+    color: #424242;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.case-study-header {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px 45px;
+}
+
+.case-study-content {
+    display: flex;
+    align-items: top;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 15px;
+    padding-left: 45px;
+    height: 100%;
+}
+
+.case-study-content p {
+    color: #1B1B1B;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 35%;
+    padding-top: 20px;
+}
+
+.case-study-content div {
+    width: 65%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.case-study-content img {
+    width: auto;
+    height: 90%;
+    object-fit: cover;
+}
+
+.case-study.blue {
+    background: #AFC7FB;
+}
+.case-study.purple {
+    background: #D6C6FC;
+}
+.case-study.orange {
+    background: #FCEAE4;
+}
+.case-study.pink {
+    background: #FFEAF6;
+}

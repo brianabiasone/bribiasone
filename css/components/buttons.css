@@ -6,9 +6,9 @@
     align-items: center;
     gap: 10px;
     border-radius: 50px;
-    background: #494949;
+    background: #1B1B1B;
     color: #FFF;
-    border: 3px solid #494949;
+    border: 3px solid #1B1B1B;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
@@ -18,14 +18,14 @@
 }
 
 .button:hover {
-    background: #FFF;
-    color: #494949;
+    background: rgba(73, 73, 73, 0.00);
+    color: #1B1B1B;
 }
 
 .button-social {
-    background: none;
-    color: #424242;
-    border: 3px solid #494949;
+    background: rgba(73, 73, 73, 0.00);
+    color: #1B1B1B;
+    border: 3px solid #1B1B1B;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -33,14 +33,15 @@
 }
 
 .button-social:hover {
-    background: #494949;
+    background: #1B1B1B;
     color: #FFF;
 }
 
 .button-tag {
     background: none;
-    border: 3px solid #494949;
-    color: #494949;
+    border: 3px solid #1B1B1B;
+    border-radius: 22.743px;
+    color: #1B1B1B;
     text-align: center;
     font-family: Inter;
     font-size: 20.042px;
@@ -48,7 +49,7 @@
     font-weight: 400;
     line-height: normal;
     padding: 11px 25px;
-    margin: 10px 10px;
+    margin: 10px 0;
 }
 
 .button-tag:hover {
@@ -58,8 +59,8 @@
 
 .button-arrow {
     background: none;
-    color: #424242;
-    border: 3px solid #494949;
+    color: #1B1B1B;
+    border: 3px solid #1B1B1B;
     display: flex;
     border-radius: 50px;
 }
@@ -80,7 +81,14 @@
 
 .button-arrow:hover {
     background: #494949;
-    color: #ffffff;
+    border: 3px solid #494949;
+    color: #FFF;
+}
+
+.button-arrow:active {
+    background: #1B1B1B;
+    border: 3px solid #1B1B1B;
+    color: #FFF;
 }
 
 /* For CTA homepage button */

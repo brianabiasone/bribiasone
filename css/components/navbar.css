@@ -24,20 +24,30 @@
     -webkit-text-fill-color: transparent;
 }
 
+.navbar .logo:hover {
+    background: linear-gradient(90deg, #49076F 15.5%, #602A82 62.5%, #814AA3 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .navbar ul {
     display: flex;
     list-style-type: none;
-    padding: 0;
-}
-
-.navbar ul li {
-    margin: 0 21px;
+    gap: 36px;
 }
 
 .navbar ul li a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 23px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
     color: #494949;
+}
+
+.navbar ul li a:hover {
+    color: #8441C4;
 }
 
 /* Responsive Styles */
