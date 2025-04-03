@@ -1,8 +1,8 @@
-.case-study-container a {
+.work-item-container a {
     text-decoration: none;
 }
 
-.case-study {
+.work-item {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -15,7 +15,7 @@
     position: relative;
 }
 
-/* .case-study::after {
+/* .work-item::after {
     content: "";
     position: absolute;
     top: 65%;
@@ -25,18 +25,18 @@
     background: linear-gradient(359deg, rgba(5, 5, 5, 0.45) 1.04%, rgba(5, 5, 5, 0.15) 49.84%, rgba(121, 135, 146, 0.00) 98.63%);
 } */
 
-.case-study:hover {
+.work-item:hover {
     transform: scale(1.02);
     transition: transform 0.5s ease-in-out;
     cursor: pointer;
 }
 
-.case-study.coming-soon:hover {
+.work-item.coming-soon:hover {
     background-color: #424242;
     transition: background-color 0.5s ease-in-out;
 }
 
-.case-study.coming-soon:hover img{
+.work-item.coming-soon:hover img{
     opacity: 0.3;
     transition: opacity 0.5s ease-in-out;
 }
@@ -56,12 +56,12 @@
     opacity: 0;
 }
 
-.case-study.coming-soon:hover .coming-soon-overlay {
+.work-item.coming-soon:hover .coming-soon-overlay {
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
 }
 
-.case-study h2 {
+.work-item h2 {
     color: #1B1B1B;
     font-family: Inter;
     font-size: 64px;
@@ -70,7 +70,7 @@
     line-height: normal;
 }
 
-.case-study h3 {
+.work-item h3 {
     color: #1B1B1B;
     text-align: left;
     font-family: Inter;
@@ -79,7 +79,7 @@
     font-weight: 600;
     line-height: normal;
 }
-.case-study h4 {
+.work-item h4 {
     color: #424242;
     text-align: left;
     font-family: Inter;
@@ -89,7 +89,7 @@
     line-height: normal;
 }
 
-.case-study-header {
+.work-item-header {
     display: flex;
     align-items: top;
     justify-content: space-between;
@@ -97,7 +97,7 @@
     padding: 30px 45px;
 }
 
-.case-study-content {
+.work-item-content {
     display: flex;
     align-items: top;
     justify-content: flex-start;
@@ -107,7 +107,7 @@
     height: 100%;
 }
 
-.case-study-content p {
+.work-item-content p {
     color: #1B1B1B;
     font-family: Inter;
     font-size: 24px;
@@ -118,27 +118,27 @@
     padding-top: 20px;
 }
 
-.case-study-content div {
+.work-item-content div {
     width: 65%;
     height: 100%;
     overflow: hidden;
 }
 
-.case-study-content img {
+.work-item-content img {
     width: auto;
     height: 90%;
     object-fit: cover;
 }
 
-.case-study.blue {
+.work-item.blue {
     background: #AFC7FB;
 }
-.case-study.purple {
+.work-item.purple {
     background: #D6C6FC;
 }
-.case-study.orange {
+.work-item.orange {
     background: #FCEAE4;
 }
-.case-study.pink {
+.work-item.pink {
     background: #FFEAF6;
 }
