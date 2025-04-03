@@ -1,15 +1,21 @@
+.case-study-container a {
+    text-decoration: none;
+}
+
 .case-study {
     display: flex;
-    align-items: left;
     justify-content: flex-start;
     flex-direction: column;
     border-radius: 50px;
     background: #AFC7FB;
     height: 863px;
     overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
 }
 
-.case-study::after {
+/* .case-study::after {
     content: "";
     position: absolute;
     top: 65%;
@@ -17,6 +23,42 @@
     right: 0;
     bottom: 0;
     background: linear-gradient(359deg, rgba(5, 5, 5, 0.45) 1.04%, rgba(5, 5, 5, 0.15) 49.84%, rgba(121, 135, 146, 0.00) 98.63%);
+} */
+
+.case-study:hover {
+    transform: scale(1.02);
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.case-study.coming-soon:hover {
+    background-color: #424242;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.case-study.coming-soon:hover img{
+    opacity: 0.3;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.coming-soon-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0;
+}
+
+.case-study.coming-soon:hover .coming-soon-overlay {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .case-study h2 {
