@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     min-height: 100%;
     letter-spacing: 0.05em;
+    margin: 0 170px;
 }
 
 .section-title{

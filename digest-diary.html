@@ -31,14 +31,16 @@
         <div class="case-study-divider">
             <img src="img/placeholder.png" alt="Digest Diary App">
         </div>
-        <div class="case-study-section">
-            <h2>My personal passion project</h2>
-            <p>As someone personally affected by IBS, I understand the overwhelming challenge of managing a lifelong gastrointestinal condition. Even with my background education in nutrition, I can only imagine how much harder it is for those without the necessary knowledge, or access to support and resources.
-                <br/><br/>This experience fuelled my passion to design Digest Diary—a tool that simplifies the journey, empowers users with personalized insights, and helps them improve their quality of life faster and more effectively.
-            </p>
-            <img src="img/grad.png" alt="Grad Photo">
+        <div class="case-study-section img-right">
+            <div>
+                <h2>My personal passion project</h2>
+                <p>As someone personally affected by IBS, I understand the overwhelming challenge of managing a lifelong gastrointestinal condition. Even with my background education in nutrition, I can only imagine how much harder it is for those without the necessary knowledge, or access to support and resources.
+                    <br/><br/>This experience fuelled my passion to design Digest Diary—a tool that simplifies the journey, empowers users with personalized insights, and helps them improve their quality of life faster and more effectively.
+                </p>
+            </div>
+            <img class="img-right" src="img/grad.png" alt="Grad Photo">
         </div>
-        <div class="case-study-section">
+        <div class="case-study-section" id="problem">
             <h2>The Problem</h2>
             <p>
                 People diagnosed with irritable bowel syndrome (IBS) and irritable bowel disease (IBD) often struggle to manage their condition due to the complex and lengthy trial-and-error process of identifying diet and lifestyle triggers.
@@ -50,7 +52,7 @@
         </div>
         <div class="case-study-divider-2">
         </div>
-        <div class="case-study-section">
+        <div class="case-study-section" id="research">
             <h2>Exploratory Research</h2>
             <h3>Research Goals:</h3>
             <ol>
@@ -89,6 +91,32 @@
             </a>
         </div>
     </div>
+    <!-- Contents Navigation -->
+    <div class="table-of-contents" data-aos="fade-right" data-aos-offset="1600" data-aos-duration="250">
+        <h2>Contents</h2>
+        <ul>
+            <li>
+                <object data="icons/arrow_outward.svg" type="image/svg+xml" class="svg-icon"></object>
+                <a href="#problem">Problem</a>
+            </li>
+            <li>
+                <object data="icons/arrow_outward.svg" type="image/svg+xml" class="svg-icon"></object>
+                <a href="#research">Research</a>
+            </li>
+            <li>
+                <object data="icons/arrow_outward.svg" type="image/svg+xml" class="svg-icon"></object>
+                <a href="#discover">Discover</a>
+            </li>
+            <li>
+                <object data="icons/arrow_outward.svg" type="image/svg+xml" class="svg-icon"></object>
+                <a href="#design">Design</a>
+            </li>
+            <li>
+                <object data="icons/arrow_outward.svg" type="image/svg+xml" class="svg-icon"></object>
+                <a href="#conclusion">Conclusion</a>
+            </li>
+        </ul>
+    </div>
     <!-- Footer -->
     <footer>
         <div class="navbar navbar-center">
@@ -112,6 +140,19 @@
             duration: 600,        // Animation duration
             easing: 'ease-out',   // Easing function
             once: false            // Only animate once
+        });
+    </script>
+    <script>
+        document.querySelectorAll('.table-of-contents a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault(); // Prevent the default anchor link behavior
+
+                // Scroll to the target element
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth', // Smooth scrolling
+                    block: 'start' // Scroll to the top of the element
+                });
+            });
         });
     </script>
 </body>

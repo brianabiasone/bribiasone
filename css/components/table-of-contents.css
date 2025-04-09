@@ -1,0 +1,45 @@
+.table-of-contents {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 30px 20px;
+    z-index: 1000;
+    width: 180px;
+}
+
+.table-of-contents h2 {
+    color: #585858;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.table-of-contents ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.table-of-contents li {
+    margin: 5px 10px;
+}
+
+.table-of-contents object {
+    width: 12px;
+}
+
+.table-of-contents a {
+    text-decoration: none;
+    color: #585858;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.table-of-contents a:hover {
+    text-decoration: none;
+    font-weight: 600;
+}
