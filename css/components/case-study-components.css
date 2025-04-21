@@ -106,6 +106,15 @@
     padding: 25px 0;
 }
 
+.case-study-section h4 {
+    color: #1B1B1B;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 .case-study-section p {
     color: #424242;
     font-family: Inter;
@@ -124,6 +133,7 @@
     font-weight: 500;
     line-height: normal;
     padding: 10px 0;
+    margin-left: 1.2em;
 }
 
 .case-study-section span {
@@ -142,4 +152,32 @@
     padding: 25px 0;
     width: 390px;
     height: auto;
+}
+
+.case-study-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.case-study-highlight {
+    display: flex;
+    padding: 35px 100px 44px 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+    border-radius: 30px;
+    background: #EBEEFF;
+    margin: 35px 0;
+}
+
+.case-study-bulletin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 110px;
+    align-self: center;
 }
