@@ -96,6 +96,10 @@
     padding: 25px 0;
 }
 
+.case-study-section .center {
+    text-align: center;
+}
+
 .case-study-section h3 {
     color: #1B1B1B;
     font-family: Inter;
@@ -154,6 +158,19 @@
     height: auto;
 }
 
+.case-study-section .img-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.case-study-section .img-center img {
+    padding: 25px 0;
+    width: auto;
+    height: 571px;
+}
+
 .case-study-button {
     display: flex;
     flex-direction: column;
@@ -180,4 +197,87 @@
     align-items: center;
     gap: 110px;
     align-self: center;
+    margin-bottom: 30px;
+}
+
+.case-study-break {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.case-study-persona {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    align-self: stretch;
+    padding: 50px 0;
+}
+
+.case-study-persona-content h3 {
+    color: #1B1B1B;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.case-study-persona-content h3 span {
+    font-weight: 700;
+}
+
+.case-study-persona-content h4 {
+    color: #1B1B1B;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.case-study-persona-content p {
+    color: #1B1B1B;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.case-study-empathy {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px 100px;
+    align-self: stretch;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+
+.case-study-empathy-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    width: 330px;
+}
+
+.case-study-empathy-content{
+    height: 330px;
+    width: 100%;
+    border-radius: 30px;
+    padding: 50px 10px;
+}
+
+.case-study-empathy-content li {
+    color: #1B1B1B;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
