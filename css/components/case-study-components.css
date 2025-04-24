@@ -343,3 +343,48 @@
 .case-study-button .button-social {
     transition: background-color 0.3s ease;
 }
+
+.case-study-design-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 842px;
+    width: 100%;
+    gap: 25px;
+}
+.case-study-design-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 25px;
+    margin-top: 80px;
+}
+
+.case-study-design-titles h5{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.case-study-design-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.case-study-design-image {
+    transform: scale(1);
+}
+
+.case-study-design-image.center {
+    transform: scale(1.1);
+}
+
+.case-study-design-image video {
+    max-height: 100%;
+}
