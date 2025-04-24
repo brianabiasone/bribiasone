@@ -123,3 +123,9 @@
     background: #383838;
     color: #ffffff;
 }
+
+.button-copy.copied {
+    border: 3px solid var(--Gray, #424242);
+    background: var(--Gray, #424242);
+    color: #fff;
+}
