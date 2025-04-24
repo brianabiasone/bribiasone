@@ -281,3 +281,22 @@
     font-weight: 400;
     line-height: normal;
 }
+
+/* Hide iframes by default */
+.case-study-button iframe {
+    display: none;
+    width: 100%;
+    height: 680px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+/* Show iframe when active */
+.case-study-button.active iframe {
+    display: block;
+}
+
+/* Style for the toggle button */
+.case-study-button .button-social {
+    transition: background-color 0.3s ease;
+}
