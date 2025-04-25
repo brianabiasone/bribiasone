@@ -60,3 +60,32 @@
 .experience.blue {
     background: rgba(239, 239, 255, 0.50);
 }
+
+@media (max-width: 480px) {
+    .experience {
+        padding: 20px 20px;
+        flex-direction: column;
+    }
+
+    .experience-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .experience-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .experience h2 {
+        font-size: 18px;
+    }
+
+    .experience h3 {
+        font-size: 18px;
+    }
+
+    .experience p {
+        font-size: 18px;
+    }
+}

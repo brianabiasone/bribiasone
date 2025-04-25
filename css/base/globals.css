@@ -12,7 +12,14 @@ body {
     flex-direction: column;
     min-height: 100%;
     letter-spacing: 0.05em;
-    margin: 0 170px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .content {
+        padding: 0 5%;
+    }
 }
 
 .section-title{

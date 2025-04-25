@@ -142,3 +142,38 @@
 .work-item.pink {
     background: #FFEAF6;
 }
+
+@media (max-width: 480px) {
+    .work-item {
+        height: 600px;
+    }
+
+    .work-item h2 {
+        font-size: 48px;
+    }
+
+    .work-item h3 {
+        font-size: 32px;
+    }
+
+    .work-item h4 {
+        font-size: 18px;
+    }
+
+    .work-item-content {
+        flex-direction: column;
+    }
+
+    .work-item-content p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .work-item-content div {
+        width: 100%;
+    }
+
+    .work-item-content img {
+        height: 60%;
+    }
+}

@@ -73,7 +73,39 @@
     overflow: hidden;
     max-width: 1200px;
     width: 100%;
-    margin: 60px 0;}
+    margin: 60px 0;
+}
+
+@media (max-width: 768px) {
+    .about h2 {
+        font-size: 60px;
+    }
+
+    .about h3 {
+        font-size: 24px;
+    }
+
+    .about p {
+        font-size: 18px;
+    }
+
+    .about {
+        flex-direction: column;
+        max-width: none;
+        width: 90%;
+        gap: 40px;
+    }
+
+    .about-img-full {
+        max-width: none;
+        width: 90%;
+    }
+
+    .about-experience {
+        max-width: none;
+        width: 90%;
+    }
+}
 
 .about-experience {
     display: flex;

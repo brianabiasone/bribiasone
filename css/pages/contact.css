@@ -106,4 +106,24 @@
         font-size: 14px;
     }
 
+    .contact {
+        max-width: none;
+        width: 90%;
+    }
+
+    .contact .contact-form input,
+    .contact .contact-form textarea {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact h1 {
+        font-size: 18px;
+    }
+
+    .contact h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
 }
