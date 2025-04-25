@@ -83,7 +83,7 @@
     width: 90%;
     height: 500px;
     max-width: 1192px;
-    margin: 80px 0 40px 0;
+    margin: 100px 0;
     display: flex;
     flex-direction: row;
     text-align: left;
@@ -120,6 +120,7 @@
     font-weight: 600;
     line-height: normal;
     margin: 13px 0;
+    text-align: justify;
 }
 
 .home-about-img {
