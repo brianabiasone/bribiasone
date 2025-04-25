@@ -81,13 +81,13 @@
 
 .home-about {
     width: 90%;
-    height: 500px;
+    height: 400px;
     max-width: 1192px;
     margin: 100px 0;
     display: flex;
     flex-direction: row;
     text-align: left;
-    gap: 135px;
+    gap: 90px;
 }
 
 .home-about h2 {
@@ -129,7 +129,7 @@
 }
 
 .home-about-img img {
-    width: 100%;
+    width: auto;
     height: 100%;
     object-fit: cover;
 }
