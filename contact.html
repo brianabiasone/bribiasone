@@ -7,15 +7,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <div class="navbar">
         <a class="logo" href="index.html">Bri Biasone</a>
-        <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <div class="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </div>
     <div class="content">
         <div class="contact" data-aos="fade-up">
@@ -131,6 +139,16 @@
                 }
             });
         }
+    </script>
+    <script>
+        const menuIcon = document.querySelector('.menu-icon');
+        const navLinks = document.querySelector('.nav-links');
+        const content = document.querySelector('.content');
+
+        menuIcon.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            content.classList.toggle('menu-open');
+        });
     </script>
 </body>
 </html>
